@@ -1,12 +1,12 @@
-# Verificar número del DNI (práctica dashboard)
+# Verificar DNI / NIE
 
-Formulario que comprueba si la letra de control de un DNI/NIE es correcta.
+Formulario que comprueba si la letra de control de un DNI o NIE es la correcta.
 
 ## Qué hace
 
-- Introduces un DNI o NIE (ej. `12345678Z`)
-- Al verificar, indica si la letra es válida
-- Incluye guía en `guia.html`
+- Campo para el documento (ej. `12345678Z`)
+- Botón verificar y mensaje de resultado
+- Guía en `guia.html`
 
 ## Cómo probarlo
 
@@ -16,13 +16,11 @@ Demo: https://moussijoelle.github.io/dasboard-pratica/
 
 ## Cómo lo construí
 
-- HTML + Tailwind browser + DaisyUI (CDN)
-- Lógica en `js/`
-- Tipografía Inclusive Sans
+HTML + Tailwind/DaisyUI (CDN). Cálculo de la letra en `js/` con la tabla estándar.
 
 ## Cómo verificarlo
 
-Sin tests. Pruebo un DNI con letra correcta y otro con letra incorrecta.
+Pruebo un documento con letra buena y otro con letra inventada.
 
 ---
 
